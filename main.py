@@ -1,12 +1,13 @@
-arr = [
-    ['___', '___', '___'],
-    ['___', '___', '___'],
-    ['___', '___', '___']
-]
 
 EMPTY = '___'
 HUMAN = '_X_'
 AI = '_O_'
+arr = [
+    [EMPTY, EMPTY, EMPTY],
+    [EMPTY, EMPTY, EMPTY],
+    [EMPTY, EMPTY, EMPTY]
+]
+
 def printBoard():
     for t in range(12):
         print('_',end='')
